@@ -14,6 +14,7 @@ public class SevenDriver {
 
 			}
 		}
+		System.out.println("If " + diceCount + " dice are rolled, the likelyhood that two numbers would add up to 7 is ");
 		System.out.println((double) wins / experiments);
 
 	}
