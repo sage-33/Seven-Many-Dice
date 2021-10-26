@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Given any number of dice rolled what is the experimental probability that two
+ * numbers add up to 7? Code runs ten-thousand experiments
+ */
 public class SevenDriver {
 	public static void main(String[] args) {
 		System.out.println("Enter number of dice to toss");
@@ -14,7 +18,8 @@ public class SevenDriver {
 
 			}
 		}
-		System.out.println("If " + diceCount + " dice are rolled, the likelyhood that two numbers would add up to 7 is ");
+		System.out
+				.println("If " + diceCount + " dice are rolled, the likelyhood that two numbers would add up to 7 is ");
 		System.out.println((double) wins / experiments);
 
 	}

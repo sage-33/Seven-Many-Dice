@@ -1,11 +1,27 @@
-
+/**
+ * @author sagesilberman
+ *
+ */
 public class SevenTally {
 	private int die;
 
+	/**
+	 * Constructs a SevenTally with when given any number of dice rolled the
+	 * probability that two numbers add up to 7
+	 * 
+	 * @param diceCount the number of dice
+	 */
 	public SevenTally(int diceCount) {
 		this.die = diceCount;
 	}
 
+	/**
+	 * Returns <code>true</code> if the number of wins, two numbers adding up to
+	 * 
+	 * @return <code>true</code> if the number of wins, two numbers adding up to
+	 *         seven, is greater than 0 <code>false</code> otherwise is false
+	 * 
+	 */
 	public boolean experiment() {
 		int wins = 0;
 
