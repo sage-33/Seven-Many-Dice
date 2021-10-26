@@ -1,9 +1,11 @@
 /**
+ * ADD DISCRIPTION!!!
+ * 
  * @author sagesilberman
  *
  */
 public class SevenTally {
-	private int die;
+	private int die; // number of dice
 
 	/**
 	 * Constructs a SevenTally with when given any number of dice rolled the
@@ -17,10 +19,10 @@ public class SevenTally {
 
 	/**
 	 * Returns <code>true</code> if the number of wins, two numbers adding up to
+	 * seven, is greater than 0
 	 * 
 	 * @return <code>true</code> if the number of wins, two numbers adding up to
 	 *         seven, is greater than 0 <code>false</code> otherwise is false
-	 * 
 	 */
 	public boolean experiment() {
 		int wins = 0;
