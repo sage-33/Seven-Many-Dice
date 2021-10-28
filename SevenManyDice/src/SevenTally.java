@@ -1,5 +1,6 @@
 /**
- * ADD DISCRIPTION!!!
+ * Represents any number of dice rolled resulting with the whether or not two
+ * numbers will add up to seven.
  * 
  * @author sagesilberman
  *
@@ -19,10 +20,10 @@ public class SevenTally {
 
 	/**
 	 * Returns <code>true</code> if the number of wins, two numbers adding up to
-	 * seven, is greater than 0
+	 * seven, is greater than 0, otherwise false
 	 * 
 	 * @return <code>true</code> if the number of wins, two numbers adding up to
-	 *         seven, is greater than 0 <code>false</code> otherwise is false
+	 *         seven, is greater than 0 <code>false</code> otherwise
 	 */
 	public boolean experiment() {
 		int wins = 0;
@@ -48,7 +49,6 @@ public class SevenTally {
 		} else {
 			return false;
 		}
-		// keeps replaying it
 	}
 
 }
